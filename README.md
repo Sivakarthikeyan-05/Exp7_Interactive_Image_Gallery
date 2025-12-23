@@ -75,7 +75,7 @@ Publish the website in the given URL.
 </head>  
 <body> 
 <div class="gallery-container"> 
-<img id="galleryImage" class="gallery-image" src="sundar.jpg" height="40%" width="40%"> 
+<img id="galleryImage" class="gallery-image" src="flag.jpg" height="40%" width="40%"> 
 <div id="caption" class="caption">Caption for Image 1</div> 
 <div class="gallery-buttons"> 
 <button onclick="prevImage()">Previous</button> 
@@ -84,10 +84,10 @@ Publish the website in the given URL.
 </div> 
 <script> 
 const images = [ 
-{ src: "sundar.jp", caption: "Caption for Image 1" }, 
-{ src: "tata.jpg", caption: "Caption for Image 2" }, 
-{ src: "bill.jpg", caption: "Caption for Image 3" }, 
-{ src: "elon1.jpg", caption: "Caption for Image 4" } 
+{ src: "flag.jp", caption: "Caption for Image 1" }, 
+{ src: "roger.jpg", caption: "Caption for Image 2" }, 
+{ src: "download.jpg", caption: "Caption for Image 3" }, 
+{ src: "flag1.jpg", caption: "Caption for Image 4" } 
 ]; 
 let currentIndex = 0; 
 function updateGallery( )  
@@ -110,6 +110,12 @@ updateGallery( );
 </html>
 ```
 ## OUTPUT:
-![alt text](<Screenshot (48).png>) ![alt text](<Screenshot (49).png>) ![alt text](<Screenshot (50).png>) ![alt text](<Screenshot (51).png>)
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/0ced3c58-b17a-45fb-992b-7e75f9cb6d1c" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/5a872006-3e3a-40dd-bc17-e096550e99b5" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/6eaa7c3e-d08c-4625-a689-d46534667758" />
+<img width="1906" height="1079" alt="image" src="https://github.com/user-attachments/assets/f5ab7947-5fd7-48bf-88c6-c00fd7af641c" />
+
+
+
 ## RESULT:
 The program for designing an interactive image gallery using HTML, CSS and JavaScript is executed successfully.
